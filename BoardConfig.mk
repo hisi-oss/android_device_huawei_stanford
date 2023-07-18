@@ -12,5 +12,8 @@ include device/huawei/hi3660-common/BoardConfigCommon.mk
 # Display
 TARGET_SCREEN_DENSITY := 480
 
+# Properties
+TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
+
 # Inherit the proprietary files
 include vendor/huawei/stanford/BoardConfigVendor.mk
