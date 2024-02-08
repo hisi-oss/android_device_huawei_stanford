@@ -5,3 +5,6 @@
 #
 
 DEVICE_PATH := device/huawei/stanford
+
+# Inherit from hi3660-common
+include device/huawei/hi3660-common/BoardConfigCommon.mk

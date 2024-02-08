@@ -3,3 +3,6 @@
 #
 # SPDX-License-Identifier: Apache-2.0
 #
+
+# Inherit from hi3660-common
+$(call inherit-product, device/huawei/hi3660-common/common.mk)
