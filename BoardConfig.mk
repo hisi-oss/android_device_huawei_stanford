@@ -10,7 +10,7 @@ DEVICE_PATH := device/huawei/stanford
 include device/huawei/hi3660-common/BoardConfigCommon.mk
 
 # Display
-TARGET_SCREEN_DENSITY := 480
+TARGET_SCREEN_DENSITY := 420
 
 # Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
