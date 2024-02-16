@@ -22,3 +22,6 @@ DEVICE_PACKAGE_OVERLAYS += \
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
+
+# Call the proprietary setup
+$(call inherit-product, vendor/huawei/stanford/stanford-vendor.mk)
